@@ -1,0 +1,44 @@
+/* App.css */
+
+/* Style for the entire table */
+.multiplication-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px auto;
+}
+
+/* Style for table rows */
+tr {
+  background-color: #f2f2f2;
+  text-align: center;
+  transition: background-color 0.3s ease-in-out;
+}
+
+tr:hover {
+  background-color: #e0e0e0;
+}
+
+/* Style for table cells */
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 18px;
+}
+
+/* Header row style */
+tr:first-child {
+  background-color: #333;
+  color: white;
+}
+
+/* Header cell style */
+td:first-child {
+  background-color: #555;
+}
+
+/* Header cell style for the first cell in the first row */
+td:first-child:first-child {
+  background-color: #777;
+}
+
+/* Add more styles as needed */
