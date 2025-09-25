@@ -5,6 +5,8 @@ function App() {
   return (
     <>
       <Counter />
+      <Counter />
+      <Counter />
     </>
   )
 }
