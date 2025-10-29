@@ -2,9 +2,8 @@ import { Home } from "./Home";
 import { Oefening1 } from "./Oefening1";
 import { Oefening2 } from "./Oefening2";
 import { Oefening3 } from "./Oefening3";
-import { Outlet, createBrowserRouter, RouterProvider, Route, NavLink } from "react-router-dom";
+import { Outlet, createBrowserRouter, RouterProvider, NavLink } from "react-router-dom";
 import { ThemeContext } from "./DarkLightMode";
-import { useState } from "react";
 import { useContext } from "react";
 
 function App() {
