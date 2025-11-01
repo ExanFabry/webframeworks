@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
   }
 });
 
-const Rainbow = rainbow(7);
+const Rainbow = rainbow(7, "hex", true);
 [
     { hex: "#f38020" },
     { hex: "#9fe303" },
