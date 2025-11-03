@@ -18,7 +18,7 @@ export const Oefening1 = ({}) => {
         <>
             <p>{beers === undefined || selectedBeer === undefined ? "" : beers[selectedBeer - 1].description}</p>
             <div style={{display: "flex", flexDirection: "row", flexWrap: "wrap"}}>
-                {beers?.map((value: Beer, index: number, array: Beer[]) => <button onClick={() => setSelectedBeer(value.id)}><img src={value.logo} alt="" style={value.id === selectedBeer ? {width: 100, border: "solid", borderWidth: 5, borderColor: "red"} : {width: 100}}/></button>)} 
+                {beers?.map((value: Beer) => <button onClick={() => setSelectedBeer(value.id)}><img src={value.logo} alt="" style={value.id === selectedBeer ? {width: 100, border: "solid", borderWidth: 5, borderColor: "red"} : {width: 100}}/></button>)} 
             </div>
         </>
     )
