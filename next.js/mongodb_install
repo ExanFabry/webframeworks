@@ -1,1 +1,1 @@
-docker run -p 27017:27017 - d mongodb/mongodb -community-server:latest
+docker run -p 27017:27017 -d mongodb/mongodb-community-server:latest (doe docker eerst open)
